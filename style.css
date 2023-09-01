@@ -7,7 +7,7 @@
 
 body{
     color: white;
-    background-color: #231942;
+    background-color: #050505;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -52,25 +52,10 @@ header nav h1{
     font-size: 1.3rem;
     border-radius: 20px;
     margin-top: 15px;
-    background-color: #453e68;
+    background-color: #bcbcbc;
+    color: #050505;
     /* border: 1px solid #ffffff; */
-  }
-  
-  .button #primaryButton a{
-    color: #c6b4df;
-    text-decoration: none;
-    padding: 15px 50px;
-    margin-left: -11px;
-  }
-  
-  .button #primaryButton:hover{
-    background-color: #c6b4df;
     box-shadow: 5px 10px #00000072;
-    
-}
-
-.button #primaryButton a:hover{
-  color: #2f2a46;
 }
 
 .content{
