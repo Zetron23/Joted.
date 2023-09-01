@@ -53,9 +53,24 @@ header nav h1{
     border-radius: 20px;
     margin-top: 15px;
     background-color: #453e68;
-    color: #c2aae4;
     /* border: 1px solid #ffffff; */
+  }
+  
+  .button #primaryButton a{
+    color: #c6b4df;
+    text-decoration: none;
+    padding: 15px 50px;
+    margin-left: -11px;
+  }
+  
+  .button #primaryButton:hover{
+    background-color: #c6b4df;
     box-shadow: 5px 10px #00000072;
+    
+}
+
+.button #primaryButton a:hover{
+  color: #2f2a46;
 }
 
 .content{
