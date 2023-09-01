@@ -4,8 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
+    <div id="main">
+        <div class="container">
+            <h2>Login</h2>
+            <form action="process_login.php" method="POST">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+    
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+    
+                <div id="buttons">
+                    <input type="submit" value="Login">
+
+                <span>OR</span>
+                <input type="submit" value="Login With Google">
+
+                </div>
+                
+            </form>
+        </div>
+
+    </div>
     
 </body>
 </html>
