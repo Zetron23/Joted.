@@ -1,0 +1,31 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+
+    <h2>Log In</h2>
+
+    <form action="/login" method="post">
+
+      <input type="text" name="name" placeholder="Name" />
+      <input type="password" name="password" placeholder="Password" />
+      <input type="submit" id="openButton" />
+    </form>
+
+    <a href="/signup">make a new account</a>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/handlebars@4.7.7/dist/handlebars.min.js"
+    ></script>
+
+    <script>
+      // Handle button click
+      document.getElementById("openButton").addEventListener("click", function
+      () { window.location.href = "index.html"; });
+    </script>
+
+  </body>
+</html>
