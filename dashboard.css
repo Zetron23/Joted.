@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+
+nav{
+    display: flex;
+    color: whitesmoke;
+    background-color: black;
+    height: 90px;
+}
+
+#mainDropdown{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    height: 87vh;
+    width: 20vw;
+    padding: 40px;
+    align-items: center;
+    background-color: #312b4c;
+    /* justify-content: center; */
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+header h1{
+    margin-right: 400px;
+    font-size: 2.3rem;
+}
+header h2{
+    margin-right: 460px;
+    margin-left: 20px;
+}
+
+header a{
+    padding: 15px;
+    margin-left: 10px;
+}
+
+.dropdown-container{
+     margin-top: 50px;   
+}
+  
+  /* Style the dropdown container */
+  .dropdown-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Style the button */
+  #dropdown-btn {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Hide the dropdown content by default */
+  .dropdown-content {
+    display: none;
+  }
+
+  .dropdown-content a{
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+  }
+  
+  /* Style the dropdown content links */
+  #dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Change link color on hover */
+  #dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  #mainPage{
+    display: flex;
+    background-color: #231942;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px; /* Adjust the width as needed */
+    height: 300px;
+    padding: 15px;
+    margin: 20px;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.413); /* The box shadow */
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Hover effect to make the card elevate slightly */
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Style for the card title */
+h3 {
+    padding: 13px 13px 10px 9px;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+/* Style for the card content */
+p {
+    font-size: 16px;
+}
+
+.container{
+  display: flex;
+  margin-top: 30px;
+}

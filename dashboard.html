@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Joted.</h1>
+            <h2>Dashboard</h2>
+            <a href="#"><i class="fa-solid fa-cloud-arrow-up"></i></a>
+            <a href="#"><i class="fa-solid fa-user"></i></a>
+        </nav>
+
+        <section id="mainPage">
+
+          <div id="mainDropdown">
+
+            <div class="dropdown-container">
+                <button id="dropdown-btn">Click Me</button>
+                <div class="dropdown-content" id="dropdown-content1">
+                    <a href="#">Item 1</a>
+                    <a href="#">Item 2</a>
+                    <a href="#">Item 3</a>
+                    <a href="#">Item 4</a>
+                    <a href="#">Item 5</a>
+                    <a href="#">Item 6</a>
+                    <a href="#">Item 7</a>
+                    <a href="#">Item 8</a>
+                    <a href="#">Item 9</a>
+                    <a href="#">Item 10</a>
+                    <a href="#">Item 11</a>
+                    <a href="#">Item 12</a>
+                    <a href="#">Item 13</a>
+                    <a href="#">Item 14</a>
+                    <a href="#">Item 15</a>
+                </div>
+              </div>
+    
+              <div class="dropdown-container">
+                <button id="dropdown-btn">Click Me</button>
+                <div class="dropdown-content" id="dropdown-content2">
+                    <a href="#">Item 1</a>
+                    <a href="#">Item 2</a>
+                    <a href="#">Item 3</a>
+                    <a href="#">Item 4</a>
+                    <a href="#">Item 5</a>
+                    <a href="#">Item 6</a>
+                    <a href="#">Item 7</a>
+                    <a href="#">Item 8</a>
+                    <a href="#">Item 9</a>
+                    <a href="#">Item 10</a>
+                    <a href="#">Item 11</a>
+                    <a href="#">Item 12</a>
+                    <a href="#">Item 13</a>
+                    <a href="#">Item 14</a>
+                    <a href="#">Item 15</a>
+                </div>
+              </div>
+    
+    
+              <div class="dropdown-container">
+                <button id="dropdown-btn">Click Me</button>
+                <div class="dropdown-content" id="dropdown-content3">
+                    <a href="#">Item 1</a>
+                    <a href="#">Item 2</a>
+                    <a href="#">Item 3</a>
+                    <a href="#">Item 4</a>
+                    <a href="#">Item 5</a>
+                    <a href="#">Item 6</a>
+                    <a href="#">Item 7</a>
+                    <a href="#">Item 8</a>
+                    <a href="#">Item 9</a>
+                    <a href="#">Item 10</a>
+                    <a href="#">Item 11</a>
+                    <a href="#">Item 12</a>
+                    <a href="#">Item 13</a>
+                    <a href="#">Item 14</a>
+                    <a href="#">Item 15</a>
+                </div>
+              </div>
+    
+    
+              <div class="dropdown-container">
+                <button id="dropdown-btn">Click Me</button>
+                <div class="dropdown-content" id="dropdown-content4">
+                    <a href="#">Item 1</a>
+                    <a href="#">Item 2</a>
+                    <a href="#">Item 3</a>
+                    <a href="#">Item 4</a>
+                    <a href="#">Item 5</a>
+                    <a href="#">Item 6</a>
+                    <a href="#">Item 7</a>
+                    <a href="#">Item 8</a>
+                    <a href="#">Item 9</a>
+                    <a href="#">Item 10</a>
+                    <a href="#">Item 11</a>
+                    <a href="#">Item 12</a>
+                    <a href="#">Item 13</a>
+                    <a href="#">Item 14</a>
+                    <a href="#">Item 15</a>
+                </div>
+              </div>
+
+        </div>
+
+        <div class="container">
+         
+          <div class="card">
+            <a href="#"><i class="fa-solid fa-user"></i></a>
+            <h3>Ansh </h3>
+            <!-- <p>This is a sample card with a box shadow.</p> -->
+        </div>
+
+        <div class="card">
+          <a href="#"><i class="fa-solid fa-user"></i></a>
+          <h3>Ruby</h3>
+          <!-- <p>This is a sample card with a box shadow.</p> -->
+      </div>
+
+      <div class="card">
+        <a href="#"><i class="fa-solid fa-user"></i></a>
+        <h3>Mounik</h3>
+        <!-- <p>This is a sample card with a box shadow.</p> -->
+    </div>
+
+        </div>
+
+        </section>
+        
+        
+    </header>
+
+
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/61b1ea64b8.js" crossorigin="anonymous"></script>
+    <script>
+        // Get references to the button and dropdown content
+    const button = document.getElementById("dropdown-btn");
+    const dropdownContent1 = document.getElementById("dropdown-content1");
+    const dropdownContent2 = document.getElementById("dropdown-content2");
+    const dropdownContent3 = document.getElementById("dropdown-content3");
+    const dropdownContent4 = document.getElementById("dropdown-content4");
+    
+    // Toggle the dropdown content visibility when the button is clicked
+    document.querySelectorAll("button")[0].addEventListener("click", () => {
+      if (dropdownContent1.style.display === "none") {
+        dropdownContent1.style.display = "block";
+      } else {
+        dropdownContent1.style.display = "none";
+      }
+    });
+
+    document.querySelectorAll("button")[1].addEventListener("click", () => {
+      if (dropdownContent2.style.display === "none") {
+        dropdownContent2.style.display = "block";
+      } else {
+        dropdownContent2.style.display = "none";
+      }
+    });
+
+    document.querySelectorAll("button")[2].addEventListener("click", () => {
+      if (dropdownContent3.style.display === "none") {
+        dropdownContent3.style.display = "block";
+      } else {
+        dropdownContent3.style.display = "none";
+      }
+    });
+
+    document.querySelectorAll("button")[3].addEventListener("click", () => {
+      if (dropdownContent4.style.display === "none") {
+        dropdownContent4.style.display = "block";
+      } else {
+        dropdownContent4.style.display = "none";
+      }
+    });
+    
+      </script>
+</body>
+</html>

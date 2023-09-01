@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Card with Box Shadow</title>
+
+    <style>
+      /* Reset some default margin and padding for the body */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the card container */
+.card {
+    width: 300px; /* Adjust the width as needed */
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* The box shadow */
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Hover effect to make the card elevate slightly */
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Style for the card title */
+h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+/* Style for the card content */
+p {
+    font-size: 16px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Card Title</h2>
+        <p>This is a sample card with a box shadow.</p>
+    </div>
+</body>
+</html>
