@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    background-color: #231942;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    margin: 10px;
+}
+
+header nav h1{
+    padding: 15px;
+    font-size: 2.7rem;
+}
+
+#main{
+    display: flex;
+    height: 80vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.description{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 320px;
+    width: 600px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.description .heading{
+    color: #9f86c0;
+    margin-bottom: 20px;
+    font-size: 2.7rem;
+}
+
+.button #primaryButton{
+    width: 150px;
+    padding: 11px;
+    font-size: 1.3rem;
+    border-radius: 20px;
+    margin-top: 15px;
+    background-color: #453e68;
+    color: #c2aae4;
+    /* border: 1px solid #ffffff; */
+    box-shadow: 5px 10px #00000072;
+}
+
+.content{
+    font-size: 1.5rem;
+}
+
+
+/* body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  } */
+  
+  /* Style the dropdown container */
+  /* .dropdown-container {
+    position: relative;
+    display: inline-block;
+  } */
+  
+  /* Style the button */
+  /* #dropdown-btn {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+  } */
+  
+  /* Hide the dropdown content by default */
+  /* #dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  } */
+  
+  /* Style the dropdown content links */
+  /* #dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+  } */
+  
+  /* Change link color on hover */
+  /* #dropdown-content a:hover {
+    background-color: #ddd;
+  } */
