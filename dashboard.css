@@ -110,13 +110,14 @@ header a{
     margin: 20px;
     background-color: #e0e0e0;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.413); /* The box shadow */
+    box-shadow: 0 4px 8px rgba(38, 38, 38, 0.549); /* The box shadow */
     transition: transform 0.2s ease-in-out;
 }
 
 /* Hover effect to make the card elevate slightly */
 .card:hover {
     transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgb(0, 0, 0); 
 }
 
 /* Style for the card title */
@@ -134,4 +135,34 @@ p {
 .container{
   display: flex;
   margin-top: 30px;
+}
+
+#contendors{
+  text-align: center;
+  margin-left: 380px;
+  width: 25vw;
+  height: 70vh;
+  border-radius: 8px;
+  background-color: #e0e0e0;
+  box-shadow: 0 4px 8px rgb(0, 0, 0);
+  padding: 17px;
+}
+
+#c-heading{
+  font-size: 1.5rem;
+}
+
+#c-content{
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.3rem;
+}
+
+#content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
